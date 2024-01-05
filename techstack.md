@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 dukesx/directus is built on the following main stack:
+
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [Swift](https://developer.apple.com/swift/) – Languages
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -50,11 +51,13 @@ dukesx/directus is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 dukesx/directus is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1009/tuHsaI2U.png' alt='Swift'/> [Swift](https://developer.apple.com/swift/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -103,14 +106,15 @@ dukesx/directus is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [dukesx/directus](https://github.com/dukesx/directus)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|188<br/>Tools used|11/11/23 <br/>Report generated|
+|191<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -593,9 +597,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (133)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (136)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (133)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (136)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -652,6 +656,7 @@ Full tech stack [here](/techstack.md)
 |[busboy](https://www.npmjs.com/busboy)|v0.3.1|09/08/20|rijkvanzanten |MIT|N/A|
 |[bytes](https://www.npmjs.com/bytes)|v3.1.0|12/17/20|WoLfulus |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|v6.2.0|11/04/20|rijkvanzanten |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.2|09/08/20|rijkvanzanten |MIT|N/A|
 |[color](https://www.npmjs.com/color)|v3.1.3|12/17/20|WoLfulus |MIT|N/A|
 |[colors](https://www.npmjs.com/colors)|v1.4.0|12/17/20|WoLfulus |MIT|N/A|
 |[commander](https://www.npmjs.com/commander)|v2.17.1|11/04/20|rijkvanzanten |MIT|N/A|
@@ -673,6 +678,7 @@ Full tech stack [here](/techstack.md)
 |[fs-extra](https://www.npmjs.com/fs-extra)|v7.0.1|09/08/20|rijkvanzanten |MIT|N/A|
 |[graphql-type-json](https://www.npmjs.com/graphql-type-json)|v0.2.4|03/04/21|Nicola Krumschmidt |MIT|N/A|
 |[html-loader](https://www.npmjs.com/html-loader)|v1.3.2|12/17/20|WoLfulus |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.3.8|12/17/20|WoLfulus |MIT|N/A|
 |[inquirer](https://www.npmjs.com/inquirer)|v7.3.3|09/08/20|rijkvanzanten |MIT|N/A|
 |[invariant](https://www.npmjs.com/invariant)|v2.2.4|02/08/21|WoLfulus |MIT|N/A|
 |[ioredis](https://www.npmjs.com/ioredis)|v4.17.3|01/19/21|WoLfulus |MIT|N/A|
@@ -682,11 +688,12 @@ Full tech stack [here](/techstack.md)
 |[jsonlint](https://www.npmjs.com/jsonlint)|v1.6.3|02/25/21|rijkvanzanten |MIT|N/A|
 |[jsonwebtoken](https://www.npmjs.com/jsonwebtoken)|v8.5.1|11/04/20|rijkvanzanten |MIT|[CVE-2022-23529](https://github.com/advisories/GHSA-27h2-hvpr-p74q) (High)<br/>[CVE-2022-23539](https://github.com/advisories/GHSA-8cf7-32gw-wr33) (Moderate)<br/>[CVE-2022-23540](https://github.com/advisories/GHSA-qwph-4952-7xr6) (Moderate)<br/>[CVE-2022-23541](https://github.com/advisories/GHSA-hjrf-2m68-5959) (Moderate)|
 |[knex](https://www.npmjs.com/knex)|v0.95.1|03/04/21|Nicola Krumschmidt |MIT|[CVE-2016-20018](https://github.com/advisories/GHSA-4jv9-3563-23j3) (High)|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v10.5.4|02/25/21|rijkvanzanten |MIT|N/A|
 |[lodash.get](https://www.npmjs.com/lodash.get)|v4.4.2|02/25/21|rijkvanzanten |MIT|N/A|
 |[markdown-it](https://www.npmjs.com/markdown-it)|v8.4.2|02/25/21|rijkvanzanten |MIT|[CVE-2022-21670](https://github.com/advisories/GHSA-6vfc-qv3f-vr6c) (Moderate)|
 |[markdown-it-anchor](https://www.npmjs.com/markdown-it-anchor)|v5.3.0|02/25/21|rijkvanzanten |Unlicense|N/A|
 |[markdown-it-container](https://www.npmjs.com/markdown-it-container)|v2.0.0|02/25/21|rijkvanzanten |MIT|N/A|
-|[marked](https://www.npmjs.com/marked)|v1.2.9|02/25/21|rijkvanzanten |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2021-21306](https://github.com/advisories/GHSA-4r62-v4vq-hr96) (Moderate)|
+|[marked](https://www.npmjs.com/marked)|v1.2.9|02/25/21|rijkvanzanten |MIT|[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2021-21306](https://github.com/advisories/GHSA-4r62-v4vq-hr96) (Moderate)|
 |[mime-types](https://www.npmjs.com/mime-types)|v2.1.28|03/04/21|Nicola Krumschmidt |MIT|N/A|
 |[mitt](https://www.npmjs.com/mitt)|v1.2.0|12/17/20|WoLfulus |MIT|N/A|
 |[mockdate](https://www.npmjs.com/mockdate)|v3.0.2|12/17/20|WoLfulus |MIT|N/A|
@@ -711,7 +718,7 @@ Full tech stack [here](/techstack.md)
 |[rollup-plugin-typescript2](https://www.npmjs.com/rollup-plugin-typescript2)|v0.27.3|02/26/21|Rijk van Zanten |MIT|N/A|
 |[sass](https://www.npmjs.com/sass)|v1.32.8|12/17/20|WoLfulus |MIT|N/A|
 |[sass-loader](https://www.npmjs.com/sass-loader)|v9.0.3|12/17/20|WoLfulus |MIT|N/A|
-|[sharp](https://www.npmjs.com/sharp)|v0.27.2|02/26/21|Rijk van Zanten |Apache-2.0|[CVE-2022-29256](https://github.com/advisories/GHSA-gp95-ppv5-3jc5) (Moderate)|
+|[sharp](https://www.npmjs.com/sharp)|v0.27.2|02/26/21|Rijk van Zanten |Apache-2.0|[](https://github.com/advisories/GHSA-54xq-cgqr-rpm3) (High)<br/>[CVE-2022-29256](https://github.com/advisories/GHSA-gp95-ppv5-3jc5) (Moderate)|
 |[sinon-chai](https://www.npmjs.com/sinon-chai)|v3.5.0|02/25/21|rijkvanzanten |BSD-2-Clause,WTFPL|N/A|
 |[slugify](https://www.npmjs.com/slugify)|v1.4.6|02/25/21|rijkvanzanten |MIT|N/A|
 |[source-map-support](https://www.npmjs.com/source-map-support)|v0.5.19|02/25/21|rijkvanzanten |MIT|N/A|
@@ -736,4 +743,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
