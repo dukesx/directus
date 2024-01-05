@@ -1,11 +1,12 @@
 repo_name: dukesx/directus
 report_id: fd6b61cedae4e32e8adf87d144bcad1d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-11T14:37:04+00:00'
+timestamp: '2024-01-05T08:52:22+00:00'
 requested_by: rijkvanzanten
 provider: github
 branch: main
-detected_tools_count: 188
+detected_tools_count: 191
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/dukesx/directus
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dukesx/directus
   detection_source: Repo Metadata
 - name: Liquid
   description: Open-source template language written in Ruby
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1746/no-img-open-source.png
+  detection_source_url: https://github.com/dukesx/directus
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -44,7 +48,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: packages/schema/test/seed/postgres.sql
+  detection_source_url: https://github.com/dukesx/directus/blob/main/packages/schema/test/seed/mysql.sql
+  detection_source: packages/schema/test/seed/mysql.sql
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-09 16:21:43.000000000 Z
 - name: Swift
@@ -56,6 +61,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/actions/build-images/rootfs/directus/images/main/Dockerfile
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/Dockerfile"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
@@ -68,6 +74,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/dukesx/directus
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -79,6 +86,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-08-03 14:22:27.000000000 Z
@@ -90,6 +98,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -104,8 +113,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-10-01 00:37:21.000000000 Z
 - name: Node.js
@@ -117,7 +126,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/actions/build-images/rootfs/directus/images/main/Dockerfile
+  detection_source: ".github/actions/build-images/rootfs/directus/images/main/Dockerfile"
   last_updated_by: WoLfulus
   last_updated_on: 2021-01-14 16:07:13.000000000 Z
 - name: React
@@ -130,7 +140,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -144,7 +154,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -158,8 +168,8 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-02-05 19:02:32.000000000 Z
 - name: css-loader
@@ -171,6 +181,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -182,6 +193,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/packages/drive-azure/package.json
   detection_source: packages/drive-azure/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-17 01:42:08.000000000 Z
@@ -193,7 +205,8 @@ tools:
   category: Data Stores
   sub_category: SQL Database as a Service
   image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
-  detection_source: packages/schema/docker-compose.yml
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-03-09 19:15:08.000000000 Z
 - name: GraphQL
@@ -204,6 +217,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/api/package.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
@@ -217,7 +231,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2021-01-19 11:21:35.000000000 Z
@@ -229,6 +243,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-03-12 21:28:57.000000000 Z
@@ -241,6 +256,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-03-09 19:15:08.000000000 Z
@@ -253,7 +269,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
@@ -267,7 +283,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1026/jT-HJYJg.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2021-01-14 16:07:13.000000000 Z
@@ -279,6 +295,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/actions/build-images/rootfs/directus/images/main/package.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
@@ -291,6 +308,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-03-09 19:15:08.000000000 Z
@@ -303,6 +321,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/actions/build-images/rootfs/directus/images/main/package.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
@@ -316,8 +335,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: app/babel.config.js
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-03-24 14:51:30.000000000 Z
 - name: Chai
@@ -330,7 +349,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-08-03 14:22:27.000000000 Z
@@ -344,7 +363,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-01-15 00:34:16.000000000 Z
@@ -357,7 +376,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
-  detection_source: ".github/actions/build-images/rootfs/directus/images/main/Dockerfile"
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/actions/build-images/Dockerfile
+  detection_source: ".github/actions/build-images/Dockerfile"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
 - name: Dotenv
@@ -369,6 +389,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/api/package.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
@@ -381,7 +402,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/api/package.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-06-16 14:33:10.000000000 Z
 - name: Git
@@ -392,6 +414,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dukesx/directus
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -401,7 +424,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/create-release.yml"
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/workflows/build-images.yml
+  detection_source: ".github/workflows/build-images.yml"
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-20 20:25:17.000000000 Z
 - name: Mocha
@@ -415,7 +439,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -427,6 +451,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-08-03 14:22:27.000000000 Z
@@ -440,8 +465,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: SinonJS
@@ -453,7 +478,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -467,7 +492,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -481,7 +506,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-19 22:18:39.000000000 Z
@@ -493,6 +518,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -504,6 +530,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/packages/gatsby-source-directus/package.json
   detection_source: packages/gatsby-source-directus/package.json
   last_updated_by: WoLfulus
   last_updated_on: 2021-02-08 17:35:49.000000000 Z
@@ -515,7 +542,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
-  detection_source: packages/format-title/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
+  detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: Netlify
@@ -527,6 +555,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/netlify.toml
   detection_source: docs/netlify.toml
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-02 16:55:04.000000000 Z
@@ -538,6 +567,7 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/.github/actions/build-images/rootfs/directus/images/main/Dockerfile
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/Dockerfile"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
@@ -551,7 +581,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -564,8 +594,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
 - name: Nodemailer
@@ -576,6 +606,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-01-15 00:34:16.000000000 Z
@@ -588,6 +619,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dukesx/directus
   detection_source: Repo Metadata
 - name: TinyMCE
   description: JavaScript library for rich text editing
@@ -599,7 +631,7 @@ tools:
   category: Libraries
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/3655/eVcDQYNK_400x400.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-08-03 14:22:27.000000000 Z
@@ -613,8 +645,8 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/8863/paeckCWC.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: axios
@@ -627,8 +659,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
-  detection_source: packages/sdk-js/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
 - name: chalk
@@ -637,7 +669,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source: packages/gatsby-source-directus/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/api/package.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
 - name: date-fns
@@ -649,7 +682,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/api/package.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
 - name: husky
@@ -657,6 +691,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -665,6 +700,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -678,7 +714,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -692,7 +728,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -706,7 +742,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -720,7 +756,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17753/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: packages/drive-gcs/package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-16 23:33:50.000000000 Z
@@ -734,7 +770,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -748,7 +784,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -762,7 +798,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18140/default_440caaaee595e35f6bfab82d7f75dc25a80312ce.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -776,7 +812,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16279/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -790,7 +826,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -804,7 +840,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16900/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -818,7 +854,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16893/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -832,7 +868,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -846,7 +882,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17492/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -860,7 +896,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -874,7 +910,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18195/default_5b09e8832af55b8bf88554d45d4eb65653e6ac76.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -888,7 +924,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -902,7 +938,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -916,7 +952,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -930,7 +966,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18757/default_c692c805cf2082b8bc09a2771d585507f0f7bc36.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -944,8 +980,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
-  detection_source: packages/drive-s3/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
 - name: "@types/highlight.js"
@@ -958,7 +994,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18552/default_928b132591c61616c8c052f2a85a40c6a450249f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -972,7 +1008,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16530/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -986,7 +1022,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17267/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1000,7 +1036,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1014,7 +1050,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1028,7 +1064,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1042,7 +1078,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1056,7 +1092,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1070,8 +1106,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-15 14:15:41.000000000 Z
 - name: "@types/pino"
@@ -1084,7 +1120,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18749/default_1f93b00a0aa6ebc30a3a7957359f1ee2067b51e1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1098,7 +1134,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1112,7 +1148,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1126,7 +1162,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16728/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1140,7 +1176,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1154,7 +1190,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16614/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -1168,8 +1204,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-04 00:37:44.000000000 Z
 - name: "@typescript-eslint/parser"
@@ -1182,8 +1218,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-04 00:37:44.000000000 Z
 - name: "@vue/cli-plugin-babel"
@@ -1196,8 +1232,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: "@vue/cli-plugin-eslint"
@@ -1210,8 +1246,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: "@vue/cli-plugin-typescript"
@@ -1224,8 +1260,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16851/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: "@vue/cli-service"
@@ -1238,8 +1274,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: "@vue/eslint-config-prettier"
@@ -1252,8 +1288,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16824/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: "@vue/eslint-config-typescript"
@@ -1266,8 +1302,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18076/image.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: "@vue/test-utils"
@@ -1280,8 +1316,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: app/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: atob
@@ -1294,7 +1330,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17503/default_5133f19ba634118175f1e1bf0c5b91999134bf79.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
@@ -1308,7 +1344,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: packages/drive-s3/package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-16 23:33:50.000000000 Z
@@ -1322,7 +1358,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1336,7 +1372,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17764/default_a3a8e3ccb38174acb180f0920c5d4e2fea848911.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1350,7 +1386,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17750/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -1364,7 +1400,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1378,7 +1414,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17905/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
@@ -1392,7 +1428,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17201/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -1407,10 +1443,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: rijkvanzanten
+  last_updated_on: 2020-09-08 20:03:38.000000000 Z
 - name: color
   description: Color conversion and manipulation with CSS string support
   package_url: https://www.npmjs.com/color
@@ -1421,7 +1471,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -1435,7 +1485,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -1449,8 +1499,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
-  detection_source_url: docs/package-lock.json
-  detection_source: packages/create-directus-project/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
 - name: cookie-parser
@@ -1463,7 +1513,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1477,8 +1527,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16453/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-15 14:15:41.000000000 Z
 - name: cors
@@ -1491,7 +1541,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
@@ -1505,8 +1555,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-15 14:15:41.000000000 Z
 - name: diff
@@ -1519,7 +1569,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -1533,7 +1583,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-19 22:18:39.000000000 Z
@@ -1547,7 +1597,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1561,8 +1611,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: eslint-plugin-vue
@@ -1575,7 +1625,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1589,7 +1639,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16637/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-10 17:46:47.000000000 Z
@@ -1603,8 +1653,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: docs/package-lock.json
-  detection_source: packages/create-directus-project/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
 - name: express
@@ -1617,7 +1667,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-10-01 00:37:21.000000000 Z
@@ -1638,7 +1688,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17490/default_1d2902e8f9c84259702671591379572493b9009b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
@@ -1652,7 +1702,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-03-16 19:56:56.000000000 Z
@@ -1666,7 +1716,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17272/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-19 22:18:39.000000000 Z
@@ -1681,8 +1731,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: docs/package-lock.json
-  detection_source: packages/drive/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
 - name: graphql-type-json
@@ -1695,7 +1745,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18717/default_5ff3c2909e9193c1059b9d7c259b01b31dca9aea.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-04 00:37:44.000000000 Z
@@ -1709,7 +1759,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: WoLfulus
+  last_updated_on: 2020-12-17 14:42:50.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 4.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -1723,7 +1787,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
@@ -1737,7 +1801,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16272/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: packages/gatsby-source-directus/package.json
   last_updated_by: WoLfulus
   last_updated_on: 2021-02-08 17:35:49.000000000 Z
@@ -1751,7 +1815,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2021-01-19 11:21:35.000000000 Z
@@ -1765,8 +1829,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-06-16 14:33:10.000000000 Z
 - name: js-yaml
@@ -1779,7 +1843,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-09-08 20:03:38.000000000 Z
@@ -1793,7 +1857,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17719/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
@@ -1807,7 +1871,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17358/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1821,7 +1885,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
@@ -1862,7 +1926,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16491/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-04 00:37:44.000000000 Z
@@ -1873,6 +1937,20 @@ tools:
     detected_date: Dec 21
     severity: high
     first_patched: 2.4.0
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: rijkvanzanten
+  last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: lodash.get
   description: The lodash method `_.get` exported as a module
   package_url: https://www.npmjs.com/lodash.get
@@ -1883,7 +1961,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16377/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: docs/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1897,7 +1975,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1918,7 +1996,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17109/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1933,7 +2011,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17038/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -1947,20 +2025,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
   vulnerabilities:
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21680
-    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21681
-    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
@@ -1980,8 +2058,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: docs/package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-04 00:37:44.000000000 Z
 - name: mitt
@@ -1994,7 +2072,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18719/default_88ba18730de3c1cd8c358a23343f72c83971e808.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2009,7 +2087,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17523/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2023,7 +2101,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18018/image.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2037,8 +2115,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: docs/package-lock.json
-  detection_source: packages/gatsby-source-directus/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-06-16 14:33:10.000000000 Z
 - name: nanoid
@@ -2051,8 +2129,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
   vulnerabilities:
@@ -2072,8 +2150,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17007/default_a62acf6476c0d9afc7932e4ebd89b72082379c8c.png
-  detection_source_url: docs/package-lock.json
-  detection_source: packages/specs/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
 - name: nyc
@@ -2086,7 +2164,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-08-03 14:22:27.000000000 Z
@@ -2100,8 +2178,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: package-lock.json
-  detection_source: packages/create-directus-project/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-06-16 14:33:10.000000000 Z
 - name: pg
@@ -2114,7 +2192,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2020-09-23 07:03:13.000000000 Z
@@ -2128,7 +2206,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16974/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
@@ -2143,7 +2221,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17620/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2158,7 +2236,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17638/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-01-15 00:34:16.000000000 Z
@@ -2172,7 +2250,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-06-16 14:33:10.000000000 Z
@@ -2193,7 +2271,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2207,7 +2285,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2221,7 +2299,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2235,7 +2313,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-19 22:18:39.000000000 Z
@@ -2249,8 +2327,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: docs/package-lock.json
-  detection_source: packages/format-title/package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
+  detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
 - name: rollup-plugin-sourcemaps
@@ -2263,7 +2341,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16230/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2277,7 +2355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2291,7 +2369,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16076/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
@@ -2305,7 +2383,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2319,7 +2397,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: WoLfulus
   last_updated_on: 2020-12-17 14:42:50.000000000 Z
@@ -2333,11 +2411,17 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: api/package.json
   last_updated_by: Rijk van Zanten
   last_updated_on: 2021-02-26 22:18:17.000000000 Z
   vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
   - name: sharp vulnerable to Command Injection in post-installation over build environment
     cve_id: CVE-2022-29256
     cve_url: https://github.com/advisories/GHSA-gp95-ppv5-3jc5
@@ -2354,7 +2438,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2368,7 +2452,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17389/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: docs/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2382,7 +2466,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2396,7 +2480,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-02-19 16:08:36.000000000 Z
@@ -2423,7 +2507,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16896/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2437,7 +2521,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2451,7 +2535,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16709/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2465,7 +2549,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16626/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2479,7 +2563,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17702/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-04 00:37:44.000000000 Z
@@ -2493,7 +2577,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2507,8 +2591,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17644/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
+  detection_source: api/package.json
   last_updated_by: Nicola Krumschmidt
   last_updated_on: 2021-03-15 14:15:41.000000000 Z
 - name: uuid
@@ -2521,7 +2605,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: api/package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-11-04 16:02:30.000000000 Z
@@ -2535,7 +2619,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2020-08-03 14:22:27.000000000 Z
@@ -2549,7 +2633,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2563,7 +2647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2577,7 +2661,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2591,7 +2675,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-25 00:03:26.000000000 Z
@@ -2605,7 +2689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17468/default_911633508f32a5d5016c37ab38144cd661ceb682.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-19 22:18:39.000000000 Z
@@ -2619,7 +2703,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: package.json
   last_updated_by: rijkvanzanten
   last_updated_on: 2021-02-19 22:18:39.000000000 Z
@@ -2633,7 +2717,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: docs/package-lock.json
+  detection_source_url: https://github.com/dukesx/directus/blob/main/docs/package-lock.json
   detection_source: ".github/actions/build-images/rootfs/directus/images/main/package.json"
   last_updated_by: WoLfulus
   last_updated_on: 2021-01-14 16:07:13.000000000 Z
